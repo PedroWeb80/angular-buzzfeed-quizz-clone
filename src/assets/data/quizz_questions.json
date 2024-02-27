@@ -15,7 +15,7 @@
     },
     {
       "id":2,
-      "question": "Que tipo de cenário chama mais sua atenção ?",
+      "question": "Qual tipo de cenário chama mais sua atenção ?",
       "background": "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2023/12/melhores-filmes-terror-2023.jpg",
       "options":[
         {"id": 1, "name":"Matas", "alias":"A"},
@@ -26,7 +26,7 @@
     {
       "id":3,
       "question": "Que tipo de roupas prenden sua atenção ?",
-      "background": "https://s2-techtudo.glbimg.com/V27nXrhni4LV9GFyNbj8dxe3KnY=/0x0:1280x719/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/L/I/BExUBxQZS6xaPkYs9EqQ/05.20-film-left-mad-max.jpg",
+      "background": "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2023/12/melhores-filmes-terror-2023.jpg",
       "options":[
         {"id": 1, "name":"Roupas comuns", "alias":"B"},
         {"id": 2, "name":"Roupas tecnológicas", "alias":"A"},

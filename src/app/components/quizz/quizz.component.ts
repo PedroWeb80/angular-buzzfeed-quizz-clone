@@ -30,7 +30,7 @@ export class QuizzComponent implements OnInit {
 
       this.questions = quizz_questions.questions;
       this.questionSelected = this.questions[this.questionIndex];
-      this.background = `background: url('${this.questionSelected.background}') no-repeat`;
+      this.background = `background: url('${this.questionSelected.background}') `;
 
       this.questionIndex = 0;
       this.questionMaxIndex = this.questions.length;
@@ -50,7 +50,7 @@ export class QuizzComponent implements OnInit {
     
     if (this.questionMaxIndex > this.questionIndex) {
       this.questionSelected = this.questions[this.questionIndex];
-      this.background = `background: url('${this.questionSelected.background}') no-repeat`;
+      this.background = `background: url('${this.questionSelected.background}') `;
       
     } else {
       const finalAnswer: string = await this.checkResult(this.answers);
