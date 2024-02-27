@@ -1,55 +1,60 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Você é do tipo que gosta de Terror ou Ação ?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "O que você gosta de ver em um Filme ?",
+      "background": "https://img.olhardigital.com.br/wp-content/uploads/2021/11/Keanu-Reeves-John-Wick-Reproducao.jpg",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Muitas Explosões", "alias":"A"},
+        {"id": 2, "name":"Muito sangue", "alias":"B"},
+        {"id": 3, "name":"Varios tipos de armas", "alias":"A"},
+        {"id": 4, "name":"História mistica", "alias":"B"},
+        {"id": 5, "name":"Pouca história", "alias":"A"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Que tipo de cenário chama mais sua atenção ?",
+      "background": "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2023/12/melhores-filmes-terror-2023.jpg",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Matas", "alias":"A"},
+        {"id": 2, "name":"Deserto", "alias":"A"},
+        {"id": 3, "name":"Mansões", "alias":"B"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Que tipo de roupas prenden sua atenção ?",
+      "background": "https://s2-techtudo.glbimg.com/V27nXrhni4LV9GFyNbj8dxe3KnY=/0x0:1280x719/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/L/I/BExUBxQZS6xaPkYs9EqQ/05.20-film-left-mad-max.jpg",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Roupas comuns", "alias":"B"},
+        {"id": 2, "name":"Roupas tecnológicas", "alias":"A"},
+        {"id": 3, "name":"Roupas de gerra", "alias":"A"},
+        {"id": 4, "name":"Roupas de época", "alias":"B"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Que tipo de produção de efeitos chama mais sua atenção ?",
+      "background": "https://proxy.olhardigital.com.br/wp-content/uploads/2023/10/evil-dead-rises.jpg",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Computação gárfica", "alias":"A"},
+        {"id": 2, "name":"Maquiagem", "alias":"B"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Qual tipo de abiente você se sente mais confortavel a ver um filme ?",
+      "background": "https://manualdohomemmoderno.com.br/files/2021/06/30-filmes-de-acao-que-voce-precisa-ver-antes-de-morrer-30-filmes-de-acao-que-voce-precisa-ver-antes-de-morrer.jpeg",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"No cinema", "alias":"A"},
+        {"id": 2, "name":"Em casa com luzes apagadas", "alias":"B"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você muito provavelmente gosta mais de filmes de ação!",
+    "B": "Você muito provavelmente gosta mais de filmes de terror!"
   }
 }

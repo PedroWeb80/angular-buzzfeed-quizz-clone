@@ -1,5 +1,4 @@
-<div class="quizz__container">
-
+<div class="quizz__container" [style]="background">
   <div class="quizz_logo">
     <img src="assets/imgs/logo.png" alt="" srcset="">
     <h3>{{title}}</h3>
@@ -24,5 +23,6 @@
   <div *ngIf=finished class="quizz_results">
     <h1>O Seu resultado é:</h1>
     <p>{{answerSelected}}</p>
+    <button (click)="restart()" class="btn-option">Refazer Questões</button>
   </div>
 </div>
